@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c855b50042945df59b76442d1020fb06:41827b13784dd2a47069077f7d7d74c8:f4cff5638ea9b74da96b683fa7962c18$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="Sprite sheet.png" width="480" height="96">
+    <sprite n="Alien 'Cat'.png" x="0" y="0" w="64" h="64"/>
+    <sprite n="Alien 'King'.png" x="64" y="0" w="64" h="64"/>
+    <sprite n="Alienfish1.0.png" x="128" y="0" w="96" h="96"/>
+    <sprite n="AlienMouse1.0.png" x="224" y="0" w="96" h="96"/>
+    <sprite n="Boom.png" x="320" y="0" w="96" h="96"/>
+    <sprite n="SpaceShip.png" x="416" y="0" w="32" h="64"/>
+    <sprite n="wall.png" x="448" y="0" w="32" h="32"/>
+</TextureAtlas>
